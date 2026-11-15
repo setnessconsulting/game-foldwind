@@ -1,6 +1,7 @@
 # Repository status — Foldwind
 
 **Last updated:** 2026-11-15 (public identity renamed to Foldwind)
+**Main:** `c24a04d42d9d09c3e71a4dd587858dee13fd08fd`
 **Jira epic:** [GAME-486](https://setnessconsulting.atlassian.net/browse/GAME-486)
 **Child map:** [docs/jira-map.md](docs/jira-map.md)
 **Name decision:** [docs/name-search.md](docs/name-search.md)
@@ -21,7 +22,7 @@ filing. The implementation is unchanged.
 | Gates, thread/graze scoring, combo | Implemented and verified | Headless tests |
 | Instant restart and pause | Implemented | Grey-box scene |
 | Headless verification | Implemented and verified | `tools/ci/verify.ps1`; 38 project checks |
-| CI `game-pr-fast` | Verified on PR #1 | Workflow run 42904695940; required check |
+| CI `game-pr-fast` | Verified on PRs #1-#4 | Required check; latest run on the exact PR head |
 | Export templates | Installed and verified | `4.7.2.stable` Windows templates |
 | Windows export smoke | Implemented; not clean-VM qualified | `build/windows/Foldwind.exe` + `.pck`; exported runtime 300-frame smoke |
 | Final art and audio | Not started | — |
@@ -50,16 +51,15 @@ complete.
 
 ## Merge gate
 
-The intended required check is `game-pr-fast` from GitHub Actions on the exact
-PR head. Jenkins is not a required check. Branch protection is configured after
-the first workflow run.
+`main` is protected by a strict required `game-pr-fast` check from GitHub
+Actions App 15368, with zero approving reviews and no force pushes or deletions.
+Jenkins is not a required check.
 
 ## Open work
 
 1. Five internal grey-box sessions and the SF-05 go/no-go memo.
-2. First `game-pr-fast` PR run and branch protection.
-3. Export-template install and a Windows export smoke test.
-4. Vertical slice (Paper Fields) and five external players.
+2. Paper Fields vertical slice and five external players.
+3. Gate 1 go/no-go decision.
 
 Then systems, art, audio, content, verification, and the Windows release follow
 in [docs/epic-foldwind.md](docs/epic-foldwind.md).
