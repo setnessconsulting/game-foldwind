@@ -1,6 +1,6 @@
 # Third-party notices
 
-Skyfold is built with **Godot Engine 4.7.2**, licensed under the MIT License.
+Foldwind is built with **Godot Engine 4.7.2**, licensed under the MIT License.
 See <https://godotengine.org/license>.
 
 No third-party art, music, sound effects, or fonts are shipped yet. Any future

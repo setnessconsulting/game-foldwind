@@ -1,6 +1,6 @@
-# Skyfold
+# Foldwind
 
-**A paper crane's flight.** Skyfold is an original one-button flight game for Windows, built with Godot 4.7.2. Tap to flap, hold to tuck into a glide, ride wind ribbons, thread living gates, and relight the lanterns before the storm folds the sky shut.
+**A paper crane's flight.** Foldwind is an original one-button flight game for Windows, built with Godot 4.7.2. Tap to flap, hold to tuck into a glide, ride wind ribbons, thread living gates, and relight the lanterns before the storm folds the sky shut.
 
 > **Status: Gate 0 foundation.** The deterministic flight core and grey-box prototype run; art, audio, campaign content, and the Windows release are not built yet. This README never claims more than the repository contains.
 
@@ -49,9 +49,10 @@ godot --headless --path . --script res://tools/verify_project.gd
 ## Design and plan
 
 - [Vision and pillars](docs/vision.md)
+- [Name search and decision](docs/name-search.md)
 - [Anti-clone guardrails](docs/anti-clone.md)
 - [Technical plan](docs/technical-plan.md)
-- [Epic and release gates](docs/epic-skyfold.md)
+- [Epic and release gates](docs/epic-foldwind.md)
 - [Jira map](docs/jira-map.md)
 - [Gate 0 evidence](docs/evidence/gate-0.md)
 
@@ -70,4 +71,4 @@ docs/          vision, technical plan, epic, evidence
 
 Code is MIT licensed. Original art and audio are licensed separately under CC BY-NC-SA 4.0; see [ASSET-LICENSE.md](ASSET-LICENSE.md). Third-party notices are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
-Skyfold is an original work. It is not affiliated with, endorsed by, or derived from *Flappy Bird* or any other game. See [docs/anti-clone.md](docs/anti-clone.md).
+Foldwind is an original work. It is not affiliated with, endorsed by, or derived from *Flappy Bird* or any other game. See [docs/anti-clone.md](docs/anti-clone.md).

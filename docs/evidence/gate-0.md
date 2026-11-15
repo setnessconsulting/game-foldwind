@@ -3,8 +3,12 @@
 **Recorded:** 2026-11-10 (America/Los_Angeles)
 **Engine:** Godot `4.7.2.stable.official.ed1daf0bf`
 **Renderer:** GL Compatibility
-**Repository:** `setnessconsulting/game-skyfold`
+**Repository:** `setnessconsulting/game-foldwind`
 **Epic:** GAME-486
+**Rename note:** The public identity was Skyfold at the original Gate 0
+checkpoint. It was renamed to Foldwind on 2026-11-15 after the name search
+found a same-genre SkyFold game and a SKYFOLD REPUBLIC trademark filing. The
+technical evidence below is unchanged; GitHub redirects the old repository URL.
 
 ## What was verified
 
@@ -18,8 +22,8 @@
 | Runtime smoke | `godot --headless --path . --quit-after 300` | No runtime errors |
 | Movie Maker render | `godot --path . --resolution 1280x720 --write-movie <png> --fixed-fps 60 --quit-after 90` | 90 frames rendered; frame reviewed |
 | Export templates | Exact Godot 4.7.2 Windows templates installed under the editor template directory | `version.txt` = `4.7.2.stable` |
-| Windows export smoke | `godot --headless --path . --export-release "Windows Desktop" build/windows/Skyfold.exe` | Pass; `Skyfold.exe` + 32,596-byte `Skyfold.pck` |
-| Exported runtime smoke | `build/windows/Skyfold.exe --headless --quit-after 300` | Exit 0, no runtime errors |
+| Windows export smoke | `godot --headless --path . --export-release "Windows Desktop" build/windows/Foldwind.exe` | Pass; `Foldwind.exe` + 32,596-byte `Foldwind.pck` |
+| Exported runtime smoke | `build/windows/Foldwind.exe --headless --quit-after 300` | Exit 0, no runtime errors |
 
 The movie render used the RTX 4070 Laptop GPU. It is a presentation smoke test,
 not a performance qualification.

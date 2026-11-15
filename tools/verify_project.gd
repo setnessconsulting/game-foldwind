@@ -11,10 +11,10 @@ var checks: int = 0
 
 
 func _initialize() -> void:
-	print("Skyfold — project verification")
+	print("Foldwind — project verification")
 
 	_check_setting("application/run/main_scene", "res://scenes/app/boot.tscn")
-	_check_setting("application/config/name", "Skyfold")
+	_check_setting("application/config/name", "Foldwind")
 	_check_setting("display/window/size/viewport_width", 1920)
 	_check_setting("display/window/size/viewport_height", 1080)
 	_check_setting("display/window/size/window_width_override", 1280)

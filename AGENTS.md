@@ -1,14 +1,14 @@
-# Agent guidance — game-skyfold
+# Agent guidance — game-foldwind
 
 ## Purpose
 
-Skyfold is an original one-button flight game for Windows, built with Godot 4.7.2. This repository owns the game source, tests, assets, build identity, and release evidence. It is not a Game Maker orchestration repository and does not own the games-site catalog.
+Foldwind is an original one-button flight game for Windows, built with Godot 4.7.2. This repository owns the game source, tests, assets, build identity, and release evidence. It is not a Game Maker orchestration repository and does not own the games-site catalog.
 
 ## Source-of-truth hierarchy
 
 1. Jira `GAME` epic and children for scope, status, and acceptance.
 2. This repository for implementation truth.
-3. `docs/vision.md`, `docs/technical-plan.md`, and `docs/epic-skyfold.md` for governing design and delivery intent.
+3. `docs/vision.md`, `docs/technical-plan.md`, and `docs/epic-foldwind.md` for governing design and delivery intent.
 4. `STATUS.md` for the truthful capability ledger.
 5. Plans, prompts, and screenshots are not proof of completed functionality.
 

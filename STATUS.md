@@ -1,8 +1,13 @@
-# Repository status — Skyfold
+# Repository status — Foldwind
 
-**Last updated:** 2026-11-10 (Gate 0 foundation)
+**Last updated:** 2026-11-15 (public identity renamed to Foldwind)
 **Jira epic:** [GAME-486](https://setnessconsulting.atlassian.net/browse/GAME-486)
 **Child map:** [docs/jira-map.md](docs/jira-map.md)
+**Name decision:** [docs/name-search.md](docs/name-search.md)
+
+The game and repository were renamed from Skyfold to Foldwind after a public
+name search found a same-genre SkyFold game and a SKYFOLD REPUBLIC trademark
+filing. The implementation is unchanged.
 
 ## State
 
@@ -18,7 +23,7 @@
 | Headless verification | Implemented and verified | `tools/ci/verify.ps1`; 38 project checks |
 | CI `game-pr-fast` | Verified on PR #1 | Workflow run 42904695940; required check |
 | Export templates | Installed and verified | `4.7.2.stable` Windows templates |
-| Windows export smoke | Implemented; not clean-VM qualified | `build/windows/Skyfold.exe` + `.pck`; exported runtime 300-frame smoke |
+| Windows export smoke | Implemented; not clean-VM qualified | `build/windows/Foldwind.exe` + `.pck`; exported runtime 300-frame smoke |
 | Final art and audio | Not started | — |
 | Campaign, Endless, Daily | Not started | — |
 | Saves and accessibility | Not started | — |
@@ -57,4 +62,4 @@ the first workflow run.
 4. Vertical slice (Paper Fields) and five external players.
 
 Then systems, art, audio, content, verification, and the Windows release follow
-in [docs/epic-skyfold.md](docs/epic-skyfold.md).
+in [docs/epic-foldwind.md](docs/epic-foldwind.md).

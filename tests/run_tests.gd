@@ -16,7 +16,7 @@ var current: String = ""
 
 
 func _initialize() -> void:
-	print("Skyfold — Gate 0 core tests")
+	print("Foldwind — Gate 0 core tests")
 
 	_test_initial_state()
 	_test_flap_sets_upward_velocity()
@@ -89,11 +89,11 @@ func _almost_eq(actual: float, expected: float, tolerance: float, message: Strin
 		print("  FAIL [%s] %s (expected %.4f ± %.4f, got %.4f)" % [current, message, expected, tolerance, actual])
 
 
-func _new_sim(seed_value: int = 42, config: Dictionary = {}) -> SkyfoldFlightSim:
+func _new_sim(seed_value: int = 42, config: Dictionary = {}) -> FoldwindFlightSim:
 	return FlightSimScript.new(seed_value, config)
 
 
-func _place_gate_left(sim: SkyfoldFlightSim) -> void:
+func _place_gate_left(sim: FoldwindFlightSim) -> void:
 	sim.gates[0]["x"] = FlightSimScript.CRANE_X - 240.0
 
 

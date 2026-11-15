@@ -5,14 +5,14 @@ config_version=5
 
 [application]
 
-config/name="Skyfold"
+config/name="Foldwind"
 config/description="A paper crane's flight."
 config/version="0.1.0"
 run/main_scene="res://scenes/app/boot.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 config/use_custom_user_dir=true
-config/custom_user_dir_name="Skyfold"
+config/custom_user_dir_name="Foldwind"
 
 [display]
 

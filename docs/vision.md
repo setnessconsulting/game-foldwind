@@ -1,4 +1,4 @@
-# Skyfold — vision and pillars
+# Foldwind — vision and pillars
 
 ## One line
 
@@ -66,6 +66,7 @@ combat, and any use of *Flappy Bird* intellectual property.
 
 ## Title
 
-`Skyfold` is the working public title. It must clear a trademark and search
-check before public release. `Featherline` is the fallback. The repository name
-is `game-skyfold`; `game-flappy-bird` remains only an internal planning label.
+`Foldwind` is the public title, selected after the search recorded in
+[name-search.md](name-search.md). The repository is `game-foldwind`;
+`game-flappy-bird` remains only historical planning shorthand. Before a paid
+store release, repeat the search and record the result.
