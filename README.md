@@ -1,5 +1,7 @@
 # Foldwind
 
+[![game-pr-fast](https://github.com/setnessconsulting/game-foldwind/actions/workflows/game-pr-fast.yml/badge.svg)](https://github.com/setnessconsulting/game-foldwind/actions/workflows/game-pr-fast.yml)
+
 **A paper crane's flight.** Foldwind is an original one-button flight game for Windows, built with Godot 4.7.2. Tap to flap, hold to tuck into a glide, ride wind ribbons, thread living gates, and relight the lanterns before the storm folds the sky shut.
 
 > **Status: Gate 0 foundation.** The deterministic flight core and grey-box prototype run; art, audio, campaign content, and the Windows release are not built yet. This README never claims more than the repository contains.

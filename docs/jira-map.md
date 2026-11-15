@@ -12,11 +12,11 @@ conservative execution order, not a claim that every step is complete.
 
 | Story | Jira | Gate | State at Gate 0 checkpoint |
 |---|---|---|---|
-| SF-01 Vision, pillars, anti-clone, name/license | GAME-487 | 0 | Docs committed; name search pending |
-| SF-02 Public repo and Godot foundation | GAME-488 | 0 | Repo and project committed; export templates pending |
-| SF-03 CI and verification rails | GAME-489 | 0 | Workflow committed; first PR run pending |
-| SF-04 Deterministic flight core | GAME-490 | 0 | Implemented and verified |
-| SF-05 Grey-box feel prototype | GAME-491 | 0 | Playable prototype built; human five-session gate pending |
+| SF-01 Vision, pillars, anti-clone, name/license | GAME-487 | 0 | Docs committed; name search recorded; title cleared to Foldwind |
+| SF-02 Public repo and Godot foundation | GAME-488 | 0 | Repo and project committed; export templates installed and verified |
+| SF-03 CI and verification rails | GAME-489 | 0 | Workflow verified on PRs #1-#3; branch protection requires game-pr-fast |
+| SF-04 Deterministic flight core | GAME-490 | 0 | Implemented and verified; 34 tests / 90 checks |
+| SF-05 Grey-box feel prototype | GAME-491 | 0 | Playable prototype and export smoke built; human five-session gate pending |
 | SF-06 Paper Fields vertical slice | GAME-492 | 1 | Not started |
 | SF-07 External slice playtest and go/no-go | GAME-493 | 1 | Not started |
 | SF-08 Flight model v2 | GAME-494 | 2 | Not started |
