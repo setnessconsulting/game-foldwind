@@ -1,4 +1,4 @@
-# Skyfold canonical verification.
+# Foldwind canonical verification.
 # Run from anywhere:
 #   .\tools\ci\verify.ps1
 #
@@ -48,5 +48,5 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 Write-Host ""
-Write-Host "PASS - Skyfold verification complete"
+Write-Host "PASS - Foldwind verification complete"
 

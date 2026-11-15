@@ -1,6 +1,10 @@
-# Skyfold Jira map
+# Foldwind Jira map
 
-**Epic:** [GAME-486](https://setnessconsulting.atlassian.net/browse/GAME-486) — Skyfold - a paper crane's flight (Windows v1.0)
+**Epic:** [GAME-486](https://setnessconsulting.atlassian.net/browse/GAME-486) - Foldwind - a paper crane's flight (Windows v1.0)
+
+The public title was renamed from Skyfold to Foldwind on 2026-11-15 after the
+name search recorded in [name-search.md](name-search.md). Child descriptions
+that still say Skyfold refer to this same project.
 
 The epic owns scope, status, and acceptance. This repository owns implementation
 truth. The children form a blocker chain in gate order; the chain is a

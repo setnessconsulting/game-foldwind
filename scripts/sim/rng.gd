@@ -1,4 +1,4 @@
-class_name SkyfoldRng
+class_name FoldwindRng
 extends RefCounted
 
 ## Small deterministic 31-bit LCG. This is deliberately simple: gameplay needs

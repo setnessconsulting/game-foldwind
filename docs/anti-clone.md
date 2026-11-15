@@ -1,6 +1,6 @@
 # Anti-clone guardrails
 
-Skyfold is inspired by the one-button flight genre. It is not a clone of
+Foldwind is inspired by the one-button flight genre. It is not a clone of
 *Flappy Bird* or any other game. This document exists so that decision drift is
 visible and reviewable.
 
@@ -14,7 +14,7 @@ Those dimensions are comparators, not assets.
 
 ## What we do differently
 
-| Convention | Skyfold |
+| Convention | Foldwind |
 |---|---|
 | A bird sprite | A procedural paper crane with fold lines, wing rig, flutter, and paper grain |
 | Pipes | Living gate architecture: bell arches, windmill frames, aurora curtains, storm shutters |
@@ -36,14 +36,15 @@ Those dimensions are comparators, not assets.
 
 ## Public identity
 
-- Game title: **Skyfold**.
-- Repository: `setnessconsulting/game-skyfold`.
+- Game title: **Foldwind**.
+- Repository: `setnessconsulting/game-foldwind`.
 - The internal label `game-flappy-bird` is planning shorthand only.
-- Before public release, run a trademark and search check for `Skyfold` and
-  record the result. Fallback: `Featherline`.
+- Before public release, run a trademark and search check for `Foldwind` and
+  record the result in [name-search.md](name-search.md). If a conflict appears,
+  choose a new original title; do not trade on an existing name.
 
 ## Review rule
 
 Every art, audio, copy, and store-asset review asks: *Could this be mistaken for
 a Flappy Bird asset or a clone screenshot?* If yes, it is rejected. The game
-must be recognizable from a single screenshot as Skyfold.
+must be recognizable from a single screenshot as Foldwind.

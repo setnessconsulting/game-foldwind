@@ -1,6 +1,13 @@
 # Changelog
 
-## 0.1.0 — Gate 0 foundation (in progress)
+## 0.1.1 - Public identity rename
+
+- Renamed the public game and repository from Skyfold to **Foldwind** after the
+  name search found an existing same-genre SkyFold game and a SKYFOLD REPUBLIC
+  trademark filing. See `docs/name-search.md`.
+- No gameplay, simulation, or test behavior changed.
+
+## 0.1.0 - Gate 0 foundation (in progress)
 
 - Bootstrapped Godot 4.7.2 project with GL Compatibility, 1920×1080 base
   viewport, 1280×720 window, and fixed 120 Hz simulation.

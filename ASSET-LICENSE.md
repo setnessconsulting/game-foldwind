@@ -1,10 +1,10 @@
-# Asset license — Skyfold
+# Asset license — Foldwind
 
 The **source code** in this repository is licensed under the MIT License; see
 [LICENSE](LICENSE).
 
 The **original art, audio, story panels, and other creative assets** made for
-Skyfold are licensed under
+Foldwind are licensed under
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 (CC BY-NC-SA 4.0), unless a file says otherwise.
 

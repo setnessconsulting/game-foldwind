@@ -1,4 +1,4 @@
-# Skyfold Windows export.
+# Foldwind Windows export.
 # Usage:
 #   .\tools\ci\export_windows.ps1
 #
@@ -16,7 +16,7 @@ if ([string]::IsNullOrWhiteSpace($godot)) {
 
 $outputDir = Join-Path $repoRoot "build\windows"
 New-Item -ItemType Directory -Path $outputDir -Force | Out-Null
-$output = Join-Path $outputDir "Skyfold.exe"
+$output = Join-Path $outputDir "Foldwind.exe"
 
 Write-Host "== Export Windows Desktop =="
 & $godot --headless --path $repoRoot --export-release "Windows Desktop" $output
@@ -25,7 +25,7 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 $exe = Get-Item $output
-$pck = Get-Item (Join-Path $outputDir "Skyfold.pck")
-Write-Host ("Skyfold.exe {0:N0} bytes" -f $exe.Length)
-Write-Host ("Skyfold.pck {0:N0} bytes" -f $pck.Length)
+$pck = Get-Item (Join-Path $outputDir "Foldwind.pck")
+Write-Host ("Foldwind.exe {0:N0} bytes" -f $exe.Length)
+Write-Host ("Foldwind.pck {0:N0} bytes" -f $pck.Length)
 Write-Host "Export complete."

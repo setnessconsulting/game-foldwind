@@ -18,7 +18,7 @@ const GATE_EDGE := Color("#8fb2c9")
 const DANGER := Color("#d36b5f")
 const MUTED := Color("#8ea3b5")
 
-var sim: SkyfoldFlightSim
+var sim: FoldwindFlightSim
 
 var _accumulator: float = 0.0
 var _flap_buffer: float = 0.0
@@ -28,7 +28,7 @@ var _best_score: int = 0
 
 
 func _ready() -> void:
-	sim = SkyfoldFlightSim.new(20261110)
+	sim = FoldwindFlightSim.new(20261110)
 	queue_redraw()
 
 
@@ -138,7 +138,7 @@ func _draw_sky() -> void:
 		draw_line(Vector2(sim.VIEW_W - offset, y), Vector2(sim.VIEW_W * 2.0 - offset, y), Color(1, 1, 1, 0.035), 2.0)
 
 	draw_rect(Rect2(0.0, sim.VIEW_H - 12.0, sim.VIEW_W, 12.0), Color(DANGER, 0.55))
-	draw_string(ThemeDB.fallback_font, Vector2(40.0, 70.0), "SKYFOLD", HORIZONTAL_ALIGNMENT_LEFT, -1, 30, Color(PAPER, 0.9))
+	draw_string(ThemeDB.fallback_font, Vector2(40.0, 70.0), "FOLDWIND", HORIZONTAL_ALIGNMENT_LEFT, -1, 30, Color(PAPER, 0.9))
 	draw_string(ThemeDB.fallback_font, Vector2(40.0, 100.0), "grey-box flight", HORIZONTAL_ALIGNMENT_LEFT, -1, 16, Color(MUTED, 0.9))
 
 

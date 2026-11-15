@@ -1,12 +1,12 @@
 {
   "contract_type": "GameProjectProfile",
   "schema_version": "1.0",
-  "profile_id": "skyfold-gate-0",
-  "display_name": "Skyfold",
-  "repository_full_name": "setnessconsulting/game-skyfold",
-  "expected_remote": "https://github.com/setnessconsulting/game-skyfold.git",
+  "profile_id": "foldwind-gate-0",
+  "display_name": "Foldwind",
+  "repository_full_name": "setnessconsulting/game-foldwind",
+  "expected_remote": "https://github.com/setnessconsulting/game-foldwind.git",
   "default_branch": "main",
-  "base_commit_sha": "8e393b576140e907f7434102eb9e89468f19fe78",
+  "base_commit_sha": "33769b5087f137854d14530c4c9716c85fee8198",
   "jira_project_key": "GAME",
   "jira_epic_key": "GAME-486",
   "work_scope": [
@@ -50,5 +50,5 @@
     "content_hash": null,
     "capability_snapshot_id": null
   },
-  "profile_hash": "sha256:30459be6d4137351ce043ace1e5df01f53312fd6fb86279b933d2776392cdb9a"
+  "profile_hash": "sha256:3b36faf225ddd390ddc497788960778af2fdcc3ecbfc771c73704ff94028e82d"
 }

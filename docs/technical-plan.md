@@ -1,4 +1,4 @@
-# Skyfold — technical plan
+# Foldwind — technical plan
 
 ## 1. Toolchain
 
@@ -11,7 +11,7 @@
 | Base resolution | 1920×1080; 1280×720 window override |
 | Stretch | `canvas_items`, aspect `expand` |
 | Simulation | Fixed 120 Hz |
-| Save path | `user://skyfold/` |
+| Save path | `user://foldwind/` |
 | Addons | None |
 | Runtime dependencies | None |
 | Network | None |
@@ -100,7 +100,7 @@ tools/
   synth_audio.gd, validate_data.gd, verify_project.gd
   ci/verify.ps1, export_windows.ps1, package_release.ps1
 docs/
-  vision.md, anti-clone.md, technical-plan.md, epic-skyfold.md,
+  vision.md, anti-clone.md, technical-plan.md, epic-foldwind.md,
   playtest/, evidence/, release/
 .github/workflows/
   game-pr-fast.yml, release-windows.yml
@@ -181,7 +181,7 @@ exact hardware.
 ## 9. Export and release
 
 - Windows Desktop preset, x86_64, separate `.pck`.
-- Portable zip: `Skyfold.exe`, `Skyfold.pck`, `README.txt`, `LICENSE`,
+- Portable zip: `Foldwind.exe`, `Foldwind.pck`, `README.txt`, `LICENSE`,
   `ASSET-LICENSE.txt`, `THIRD_PARTY_NOTICES.txt`, `CHANGELOG.txt`.
 - `SHA256SUMS.txt` and `release-manifest.json` record the source SHA, engine
   version, export preset, build time, files, and hashes.
@@ -227,5 +227,5 @@ metadata**:
 | Scope creep | Gate reviews; locked 24+4 content; no new mechanics after Gate 2 |
 | Difficulty | Playtest metrics; assist mode; medal thresholds; no passage > 10 median |
 | SmartScreen | Document unsigned portable zip; revisit signing only if it blocks players |
-| Name conflict | Clear `Skyfold` before public release; fallback `Featherline` |
+| Name conflict | Clear `Foldwind` before public release; fallback `Featherline` |
 | MCP/CI limits | MCP is a dev aid; CI is headless; visual/performance evidence is human |

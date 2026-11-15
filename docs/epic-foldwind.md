@@ -1,4 +1,4 @@
-# Epic — Skyfold: a paper crane's flight (Windows v1.0)
+# Epic — Foldwind: a paper crane's flight (Windows v1.0)
 
 **Status:** Gate 0 is in progress. Jira epic **GAME-486** owns scope and
 acceptance; the child keys are mapped in [jira-map.md](jira-map.md).
@@ -11,7 +11,7 @@ hazard gauntlets, Endless, a daily seeded run, unlockable origami forms, medals,
 local scores, final vector art, original synthesized audio, and verified
 accessibility and performance.
 
-Skyfold is not a Flappy Bird clone. It uses tap/hold flap–glide, wind fields,
+Foldwind is not a Flappy Bird clone. It uses tap/hold flap–glide, wind fields,
 thread scoring, living gate architecture, and a wordless paper-diorama story.
 See [anti-clone.md](anti-clone.md).
 
@@ -66,7 +66,7 @@ publicly downloadable and verified; no open P0/P1; docs and evidence complete.
 | ID | Work package | Done when |
 |---|---|---|
 | SF-01 | Vision, pillars, anti-clone, name/license lock | `docs/vision.md`, `docs/anti-clone.md`, license split, name-search memo, fallback title recorded |
-| SF-02 | Public repo and Godot foundation | `game-skyfold` public; 4.7.2 project with GL Compatibility, 1920×1080/1280×720, 120 Hz, input map, boot scene; docs/AGENTS/LICENSE; clean-clone import passes; export templates verified |
+| SF-02 | Public repo and Godot foundation | `game-foldwind` public; 4.7.2 project with GL Compatibility, 1920×1080/1280×720, 120 Hz, input map, boot scene; docs/AGENTS/LICENSE; clean-clone import passes; export templates verified |
 | SF-03 | CI and verification rails | `game-pr-fast` on Windows runner; pinned Godot with SHA-256; import, check-only, tests, project validation; branch protection; local verify script |
 | SF-04 | Deterministic flight core | Node-free `FlightSim`; tap/hold, gravity, terminal velocity, gates, collision, snapshot; seeded RNG; input buffer; 25+ tests; replay; static guard |
 | SF-05 | Grey-box feel prototype | 60-second loop with three gate patterns; score/restart/pause; five internal sessions; tuning table; < 50 ms input response; go/no-go memo |

@@ -1,4 +1,4 @@
-class_name SkyfoldFlightSim
+class_name FoldwindFlightSim
 extends RefCounted
 
 ## Deterministic, node-free flight simulation.
@@ -37,7 +37,7 @@ const GRAZE_PX := 8.0
 var config: Dictionary = {}
 
 var seed_value: int = 1
-var rng: SkyfoldRng
+var rng: FoldwindRng
 var time_s: float = 0.0
 
 var bird_y: float = VIEW_H * 0.5
@@ -75,7 +75,7 @@ func _init(p_seed: int = 1, p_config: Dictionary = {}) -> void:
 
 func reset(p_seed: int = 1) -> void:
 	seed_value = p_seed
-	rng = SkyfoldRng.new(p_seed)
+	rng = FoldwindRng.new(p_seed)
 
 	time_s = 0.0
 	bird_y = VIEW_H * 0.5
